@@ -25,6 +25,10 @@
 /////////////////////
 // Defines and declarations
 
+#define AI1 6
+#define BI1 7
+#define PWMA 9
+
 
 /////////////////////
 // Globaalit muuttujat
@@ -35,11 +39,21 @@
 // ja alustetaan objektit, portit jne
 
 void setup() {
+
+  pinMode(AI1, OUTPUT);
+  pinMode(BI1, OUTPUT);
+
+//  pinMode(PWMA, OUTPUT);
   
  
 } // - END SETUP()
 
 void loop() {
 
+  digitalWrite(AI1, LOW);
+  digitalWrite(BI1, HIGH);
+
+
+  analogWrite(PWMA, 400);
   
 } // - END LOOP()
