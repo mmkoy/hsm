@@ -41,9 +41,9 @@
 #define LID_CLOSE       80  // Servon asento kun kansi on kiinni
 #define LID_FULLCLOSE   90  // Servon asento kun laite käynnistyy
 
-#define MIC_TRESHOLD    50  // Mikin "kovaääni" kynnys
+#define MIC_TRESHOLD    60  // Mikin "kovaääni" kynnys
 
-#define WAITTIME        500 // Odotus aika (0.5sek) ennenkuin mikkiä uudestaan kuunnellaan
+#define WAITTIME        800 // Odotus aika (0.5sek) ennenkuin mikkiä uudestaan kuunnellaan
 
 #define TRUE            1   // Perinteinen TRUE määritys
 #define FALSE           0   // Perinteinen FALSE määritys
